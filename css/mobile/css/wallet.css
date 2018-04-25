@@ -1,0 +1,302 @@
+html body{
+	background-color: #f5f5f5;
+}
+#banner{
+	background-image: url(../../../img/mobile/images/wallet-banner.jpg);
+	height:4.76rem;
+	width:100%;
+	background-size:100% 100%;
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.23rem;
+}
+#banner .banner-title{
+	position: absolute;
+	top:0.46rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+}
+#banner .banner-title h4{
+	color:#fff;
+	font-size:24px;
+}
+
+[data-dpr="1"] #banner .banner-title h4 {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #banner .banner-title h4 {
+	font-size: 36px;
+}
+#banner .banner-tag{
+	position: absolute;
+	top:0.42rem;
+	left:0.42rem;
+}
+#banner .banner-tag a i{
+	font-size:32px;
+	color:#fff;
+}
+[data-dpr="1"] #banner .banner-tag a i {
+	font-size: 16px;
+}
+
+[data-dpr="3"] #banner .banner-tag a i {
+	font-size: 48px;
+}
+#banner .banner-count span{
+	color:#fff;
+}
+#banner .banner-count span:first-child{
+	font-size:24px;
+}
+[data-dpr="1"] #banner .banner-count span:first-child {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #banner .banner-count span:first-child {
+	font-size: 36px;
+}
+#banner .banner-count span:last-child{
+	font-size:36px;
+}
+[data-dpr="1"] #banner .banner-count span:last-child {
+	font-size: 18px;
+}
+
+[data-dpr="3"] #banner .banner-count span:last-child {
+	font-size: 54px;
+}
+#banner .banner-btn{
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	display: -webkit-flex;
+	background-color:#f5c658;
+	align-items: center;
+	width:100%;
+	justify-content: center;
+	
+}
+#banner .banner-btn .btn-left{
+	display: flex;
+	display: -webkit-flex;
+	flex:1;
+	justify-content: center;
+	margin:0.23rem 0;
+}
+#banner .banner-btn .btn-left a{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+#banner .banner-btn .btn-left .icon-shangjin{
+	font-size:48px;
+	color: #fff;
+	margin-right:0.45rem;
+}
+[data-dpr="1"] #banner .banner-btn .btn-left .icon-shangjin {
+	font-size: 24px;
+}
+
+[data-dpr="3"] #banner .banner-btn .btn-left .icon-shangjin {
+	font-size: 72px;
+}
+#banner .banner-btn .btn-left span{
+	font-size:24px;
+	
+}
+#banner .banner-btn .btn-left span:first-of-type{
+	margin-right:0.45rem;
+}
+[data-dpr="1"] #banner .banner-btn .btn-left span {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #banner .banner-btn .btn-left span {
+	font-size: 36px;
+}
+#banner .banner-btn .btn-right{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	flex:1;
+	justify-content: center;
+	margin:0.23rem 0;
+}
+#banner .banner-btn .btn-right a{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+#banner .banner-btn .btn-right .icon-shangjin{
+	font-size:48px;
+	color: #fff;
+	margin-right:0.45rem;
+}
+[data-dpr="1"] #banner .banner-btn .btn-right .icon-shangjin {
+	font-size: 24px;
+}
+
+[data-dpr="3"] #banner .banner-btn .btn-right .icon-shangjin {
+	font-size: 72px;
+}
+#banner .banner-btn .btn-right span{
+	font-size:24px;
+	
+}
+#banner .banner-btn .btn-right span:first-of-type{
+	margin-right:0.45rem;
+}
+[data-dpr="1"] #banner .banner-btn .btn-right span {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #banner .banner-btn .btn-right span {
+	font-size: 36px;
+}
+#banner  .banner-btn .btn-line{
+	width: 1px;
+	height: 0.62rem;
+	background-color: #eaeaea;
+}
+#column .column-one{
+	background-color: #fff;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	padding:0.23rem 0.45rem;
+	border-top:solid 1px #dddddd;
+	justify-content: space-between;
+	
+}
+#column .column-one .column-one-left {
+	display: flex;
+	align-items: center;
+	display: -webkit-flex;
+}
+#column .column-one .column-one-left i{
+	font-size:32px;
+}
+[data-dpr="1"] #column .column-one .column-one-left i {
+	font-size: 16px;
+}
+
+[data-dpr="3"] #column .column-one .column-one-left i {
+	font-size: 48px;
+}
+#column .column-one .column-one-left span{
+	font-size:24px;
+	margin-left:0.56rem;
+}
+[data-dpr="1"] #column .column-one .column-one-left span {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #column .column-one .column-one-left span {
+	font-size: 36px;
+}
+#column .column-one .column-one-right{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+#column .column-one .column-one-right img{
+	width:0.34rem;
+	height:0.34rem;
+}
+#column .column-two{
+	background-color: #fff;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	padding:0.23rem 0.45rem;
+	border-top:solid 1px #dddddd;
+	justify-content: space-between;
+	
+}
+#column .column-two .column-two-left {
+	display: flex;
+	align-items: center;
+	display: -webkit-flex;
+}
+#column .column-two .column-two-left i{
+	font-size:32px;
+}
+[data-dpr="1"] #column .column-two .column-two-left i {
+	font-size: 16px;
+}
+
+[data-dpr="3"] #column .column-two .column-two-left i {
+	font-size: 48px;
+}
+#column .column-two .column-two-left span{
+	font-size:24px;
+	margin-left:0.56rem;
+}
+[data-dpr="1"] #column .column-two .column-two-left span {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #column .column-two .column-two-left span {
+	font-size: 36px;
+}
+#column .column-two .column-two-right{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+#column .column-two .column-two-right img{
+	width:0.34rem;
+	height:0.34rem;
+}
+#column .column-three{
+	background-color: #fff;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	padding:0.23rem 0.45rem;
+	border-top:solid 1px #dddddd;
+	justify-content: space-between;
+	
+}
+#column .column-three .column-three-left {
+	display: flex;
+	align-items: center;
+	display: -webkit-flex;
+}
+#column .column-three .column-three-left i{
+	font-size:32px;
+}
+[data-dpr="1"] #column .column-three .column-three-left i {
+	font-size: 16px;
+}
+
+[data-dpr="3"] #column .column-three .column-three-left i {
+	font-size: 48px;
+}
+#column .column-three .column-three-left span{
+	font-size:24px;
+	margin-left:0.56rem;
+}
+[data-dpr="1"] #column .column-three .column-three-left span {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #column .column-three .column-three-left span {
+	font-size: 36px;
+}
+#column .column-three .column-three-right{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+
+#column .column-three .column-three-right img{
+	width:0.34rem;
+	height:0.34rem;
+}

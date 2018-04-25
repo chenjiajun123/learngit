@@ -1,0 +1,233 @@
+html body{
+	background-color:#fff;
+}
+#header{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: center;
+	padding:0.42rem 0;
+	position: relative;
+}
+#header h4{
+	font-size:24px;
+}
+[data-dpr="1"] #header h4 {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #header h4 {
+	font-size: 36px;
+}
+#header .header-btn{
+	position: absolute;
+	top:0.42rem;
+	left:0.42rem;
+}
+#header .header-btn a i{
+	font-size:32px;
+	color:#f7d481;
+}
+[data-dpr="1"] #header .header-btn a i {
+	font-size: 16px;
+}
+
+[data-dpr="3"] #header .header-btn a i {
+	font-size: 48px;
+}
+#tab{
+	background-color:#1f1f1f;
+	;
+}
+#tab ul{
+	list-style: none;
+	display: flex;
+	display:-webkit-flex;
+	
+}
+#tab ul li{
+	display: flex;
+	display: -webkit-flex;
+	flex:1;
+	justify-content: center;
+	align-items: center;
+	
+}
+#tab ul li a {
+	color:#998149;
+	font-size:18px;
+	padding:0.31rem 0; 
+}
+#tab ul li a:hover{
+	border-bottom:solid 3px #e9bc54;
+}
+[data-dpr="1"] #tab ul li a {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #tab ul li a {
+	font-size: 36px;
+}
+#order .order-title{
+	display: flex;
+	align-items: center;
+	padding:0.23rem 0;
+	padding-left:0.21rem;
+	border-bottom:solid 1px #dddddd;
+}
+#order .order-title i{
+	font-size:28px;
+	color:#eec86e;
+}
+[data-dpr="1"] #order .order-title i {
+	font-size: 14px;
+}
+
+[data-dpr="3"] #order .order-title i {
+	font-size: 42px;
+}
+#order .order-title span{
+	font-size:18px;
+	margin-left:0.15rem;
+}
+[data-dpr="1"] #order .order-title span {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #order .order-title span {
+	font-size: 36px;
+}
+#order .order-content{
+	padding: 0.21rem;
+}
+#order .order-content-img img{
+	width:1.87rem;
+	height: 1.87rem;
+	float: left;
+	margin-right: 0.31rem;
+}
+#order .order-content .order-content-info{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height:1.87rem;
+	position: relative;
+}
+#order .order-content .order-content-info h4{
+	font-size:24px;
+}
+[data-dpr="1"] #order .order-content .order-content-info h4 {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #order .order-content .order-content-info h4 {
+	font-size: 36px;
+}
+#order .order-content .order-content-info .money{
+	color:#ed6868;
+	font-size:18px;
+	
+}
+[data-dpr="1"] #order .order-content .order-content-info .money {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #order .order-content .order-content-info .money {
+	font-size: 36px;
+}
+#order .order-content .order-content-info del{
+	font-size:14px;
+	color:#d1d1d1;
+}
+[data-dpr="1"] #order .order-content .order-content-info del {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #order .order-content .order-content-info del {
+	font-size: 36px;
+}
+#order .order-content .order-content-info .count{
+	font-size:18px;
+	position: absolute;
+	right:0;
+	top:50%;
+}
+[data-dpr="1"] #order .order-content .order-content-info .count {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #order .order-content .order-content-info .count {
+	font-size: 36px;
+}
+#order .order-details{
+	display: flex;
+	display: -webkit-flex;	
+	padding:0.21rem;
+	border-top:solid 1px #dddddd;
+	border-bottom:solid 1px #dddddd;
+	justify-content: flex-end;
+}
+#order .order-details p{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+#order .order-details p span:first-child{
+	font-size:14px;
+}
+[data-dpr="1"] #order .order-details p span:first-child {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #order .order-details p span:first-child {
+	font-size: 36px;
+}
+#order .order-details p .second{
+	font-size:24px;	
+}
+[data-dpr="1"] #order .order-details p .second {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #order .order-details p .second {
+	font-size: 36px;
+}
+#order .order-details p span:last-child{
+	font-size:14px;
+}
+[data-dpr="1"] #order .order-details p span:last-child {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #order .order-details p span:last-child {
+	font-size: 36px;
+}
+#order .order-btn{
+	display: flex;
+	padding:0.21rem;
+	justify-content: flex-end;
+	align-items: center;
+}
+#order .order-btn a{
+	width:1.56rem;
+	height:0.54rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:solid 1px #999999;
+	font-size:18px;
+	border-radius: 0.06rem;
+	margin-left:0.12rem;
+}
+#order .order-btn a:hover{
+	color:#fae2b2;
+	border:solid 1px #fae2b2;
+}
+[data-dpr="1"] #order .order-btn a {
+	font-size: 12px;
+}
+
+[data-dpr="3"] #order .order-btn a {
+	font-size: 36px;
+}
